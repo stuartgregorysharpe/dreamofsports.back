@@ -1,0 +1,35 @@
+export const cfg = {   
+    mainsiteUrl: "https://dream-of-sports.com",
+    staticUrl: "https://static.dream-of-sports.com",    
+    backUrl: "https://back.dream-of-sports.com", 
+    ownerUrl: "https://owner.dream-of-sports.com",
+    editorUrl: "https://editor.dream-of-sports.com",
+    corsedUrls: [
+        "https://dream-of-sports.com",
+        "https://owner.dream-of-sports.com", 
+        "https://editor.dream-of-sports.com", 
+        "http://localhost:8100",
+        "https://localhost",
+        "capacitor://localhost",
+        "http://192.168.4.179:8100",
+    ],  
+    dbHost: "localhost",
+    dbPort: 3306,
+    dbName: "mechta",
+    dbLogin: "root",
+    dbPassword: "6vl1TfeXq",
+    appPort: 3020,
+    wsPort: 3021,
+    jwtAdmin: {
+        secret: "koshechki",
+        signOptions: {expiresIn: 60*60*24*365}, 
+    },
+    jwtUser: {
+        secret: "sobachki",
+        signOptions: {expiresIn: 60*60*24*365}, 
+    },
+    encryption: {
+        key: '6562437b50e2336726de7e6df6b75a4fac21d66ab7694ef6c0fb245f39afdf6a',        
+        iv: '657f98160670dc6a11207c1c9b3c8c55',
+    },
+};
