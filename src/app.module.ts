@@ -77,7 +77,6 @@ import { CUserFollow } from './model/entities/user.follow';
 			username: cfg.dbLogin,
 			password: cfg.dbPassword,
 			database: cfg.dbName,
-  "logging": true,
 			entities: [
 				CAdmin, 
 				CAdminGroup,
