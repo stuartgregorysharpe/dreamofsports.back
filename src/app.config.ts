@@ -1,8 +1,8 @@
 export const cfg = {   
-    mainsiteUrl: "https://dream-of-sports.com",
+    mainsiteUrl: "http://test.dream-of-sports.com",
     staticUrl: "https://static.mechta.vio.net.ua",    
     backUrl: "https://back.mechta.vio.net.ua", 
-    ownerUrl: "https://owner.mechta.vio.net.ua",
+    ownerUrl: "http://test.owner.mechta.vio.net.ua",
     editorUrl: "https://editor.mechta.vio.net.ua",
     corsedUrls: [
         "https://dream-of-sports.com",
@@ -15,11 +15,11 @@ export const cfg = {
     ],  
     dbHost: "localhost",
     dbPort: 3306,
-    dbName: "mechta",
+    dbName: "mechta_test",
     dbLogin: "root",
     dbPassword: "Password2@",
-    appPort: 3020,    
-    wsPort: 3021,
+    appPort: 3030,    
+    wsPort: 3031,
     jwtAdmin: {
         secret: "koshechki",
         signOptions: {expiresIn: 60*60*24*365}, 
